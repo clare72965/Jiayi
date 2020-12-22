@@ -21,6 +21,7 @@ function Contact() {
                 <div className="contact_info_box">
                     <div><i className="fas fa-map-marker-alt"></i>嘉義縣竹崎鄉灣橋村325巷28號</div>
                     <div><i className="fas fa-phone"></i>0928-299-367</div>
+                    <div>服務範圍- 雲嘉南地區</div>
                     <div className="contact_info_fb" onClick={goFacebook}><i className="fab fa-facebook-square"></i>嘉藝造霧工程行</div>
                 </div>
             </div>
