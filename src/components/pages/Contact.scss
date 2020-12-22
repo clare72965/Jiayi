@@ -1,0 +1,78 @@
+.contact_layout{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+
+    img{
+        width: 600px;
+        border-radius: 2px;
+    }
+}
+
+.contact_title_en{
+    color: #2F2E2E;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: center;
+    
+    span{
+        color: #405364;
+    }
+}
+
+.contact_title_zh{
+    color: #405364;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact_info_box{
+    margin: 50px 0;
+
+    .contact_info_fb{
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: #1c88bc;
+
+        .fa-facebook-square{
+            font-size: 1.4rem;
+            color: #1c88bc;
+        }
+    }
+
+
+    div{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 1.1rem;
+    
+        i{
+            margin-right: 10px;
+            color: black;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    .contact_layout{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    
+        img{
+            width: 100%
+        }
+    }
+
+    .contact_title_en{
+        font-size: 2rem;
+    }
+
+    .contact_title_zh{
+        font-size: 1.5rem;
+    }
+}

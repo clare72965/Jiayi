@@ -1,0 +1,9 @@
+.app{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page_layout{
+    flex-grow: 1;
+}

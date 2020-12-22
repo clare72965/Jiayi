@@ -1,0 +1,23 @@
+.footer_layout{
+    text-align: left;
+    background-color: #1c88bc;
+    padding: 20px 25px;
+    color: white;
+
+    &_title{
+     font-size: 25px;
+     margin-bottom: 20px;
+    }
+
+    &_info{
+        margin-bottom: 10px;
+    }
+
+    &_copyright{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+
