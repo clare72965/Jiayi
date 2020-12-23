@@ -7,7 +7,7 @@ function AchieveDisplay() {
     const [tab, setTab] = useState(0);
 
     const getImg = images.Achieve_DisplayImg.map(img => {
-        return <img key={img} src={img} alt="" />
+        return <img key={img.src} src={img.src} alt={img.alt} />
     });
 
 

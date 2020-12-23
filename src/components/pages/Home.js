@@ -8,12 +8,23 @@ function Home({ topBtn }) {
 
     let history = useHistory();
 
+    const serveItemImg = images.Home_ServeItemImg.map(img => {
+        return (
+            <div key={img.src}>
+                <div className="service_items_content_img_box">
+                    <img src={img.src} alt={img.alt} />
+                </div>
+                <div className="service_items_content_img_title">{img.alt}</div>
+            </div>
+        )
+    })
+
     const motorMixImg = images.Home_MotorMixImg.map(img => {
-        return <div key={img} className="motor_mix_content_img_box"><img src={img} /></div>
+        return <div key={img.src} className="motor_mix_content_img_box"><img src={img.src} alt={img.alt} /></div>
     })
 
     const displayImg = images.Home_DisplayImg.map(img => {
-        return <img key={img} src={img} />
+        return <img key={img.src} src={img.src} alt={img.alt} />
     })
 
     const goFacebook = () => {
@@ -29,33 +40,14 @@ function Home({ topBtn }) {
     return (
         <div className="home_layout">
             <div className="home_banner">
-                <img src={images.Home_ServeItemImg.banner} />
+                <img src={images.Banner.src} alt={images.Banner.alt} />
             </div>
 
             <div className="service_items_layout">
                 <div className="service_items_title">
                     <div>服務項目</div>
                 </div>
-                <div className="service_items_content">
-                    <div>
-                        <div className="service_items_content_img_box">
-                            <img src={images.Home_ServeItemImg.service01} />
-                        </div>
-                        <div className="service_items_content_img_title">畜牧消毒降溫</div>
-                    </div>
-                    <div>
-                        <div className="service_items_content_img_box">
-                            <img src={images.Home_ServeItemImg.service02} />
-                        </div>
-                        <div className="service_items_content_img_title">溫室加濕降溫</div>
-                    </div>
-                    <div>
-                        <div className="service_items_content_img_box">
-                            <img src={images.Home_ServeItemImg.service03} />
-                        </div>
-                        <div className="service_items_content_img_title">車輛消毒系統</div>
-                    </div>
-                </div>
+                <div className="service_items_content">{serveItemImg}</div>
             </div>
 
             <div className="motor_mix_layout">
