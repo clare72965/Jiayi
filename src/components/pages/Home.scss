@@ -1,3 +1,5 @@
+@import "../../color.scss";
+
 .home_banner{
     margin-bottom: 100px;
 
@@ -106,7 +108,7 @@
 
     button:hover{
         color: white;
-        background-color: #1c88bc;
+        background-color: $theme_color;
     }
 
     &_img_box{
@@ -132,7 +134,7 @@
 
 .home_contact_layout{
     padding: 100px 0;
-    background: linear-gradient(#ffffff, #1c88bc);
+    background: linear-gradient(#ffffff, $theme_color);
 
     .home_contact_info_fb{
         font-size: 25px;

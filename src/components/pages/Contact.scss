@@ -1,3 +1,5 @@
+@import "../../color.scss";
+
 .contact_layout{
     display: flex;
     justify-content: space-around;
@@ -34,11 +36,11 @@
     .contact_info_fb{
         cursor: pointer;
         font-size: 1.4rem;
-        color: #1c88bc;
+        color: $theme_color;
 
         .fa-facebook-square{
             font-size: 1.4rem;
-            color: #1c88bc;
+            color: $theme_color;
         }
     }
 

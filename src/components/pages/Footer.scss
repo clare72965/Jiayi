@@ -1,6 +1,8 @@
+@import "../../color.scss";
+
 .footer_layout{
     text-align: left;
-    background-color: #1c88bc;
+    background-color: $theme_color;
     padding: 20px 25px;
     color: white;
 

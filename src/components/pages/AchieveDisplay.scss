@@ -1,3 +1,5 @@
+@import "../../color.scss";
+
 .achieve_display_layout{
     display: flex;
     flex-wrap: wrap;
@@ -17,9 +19,9 @@
             transition: .2s;
 
             &.clicked{
-                color: #1c88bc;
+                color: $theme_color;
                 font-weight: bold;
-                border-bottom: 2px solid #1c88bc;
+                border-bottom: 2px solid $theme_color;
             }
         }
 

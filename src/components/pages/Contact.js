@@ -14,7 +14,7 @@ function Contact() {
 
     return (
         <div className="contact_layout">
-            <div><img src={images.contact.contact} alt="" /></div>
+            <div><img src={images.contact.contact} alt="溫室花卉噴霧" /></div>
             <div>
                 <div className="contact_title_en">CONTACT<span>US</span></div>
                 <div className="contact_title_zh">聯絡我們</div>
