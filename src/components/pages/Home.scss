@@ -51,7 +51,7 @@
     align-items: center;
     padding: 20px 0; 
 
-    div{
+    > div{
         margin: 20px 0;
     }
 
@@ -214,11 +214,6 @@
         flex-direction: column;
         padding: 20px 0 0;
 
-        &_img_box{
-            width: 320px;
-            height: 320px;
-        }
-
         img{
             width: 100%;
         }
@@ -231,21 +226,27 @@
 
 
     .service_items_content{
-        div{
+       > div{
             margin: auto;
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: center;
         }
     
-        div:nth-child(even){
+       > div:nth-child(even){
             flex-direction: row-reverse;
         }
 
+        &_img_box{
+            width:50%;
+            height: 320px;
+        }
+
         &_img_title{
-            font-size: 1.5rem;
-            letter-spacing: 10px;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            font-weight: 500;
+            margin: auto;
         }
     }
 
