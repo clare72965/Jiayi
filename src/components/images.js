@@ -47,7 +47,6 @@ import spray_poster_video from "../asset/img/display/video/spray_poster_video.jp
 import personnel_disinfection_poster_video from "../asset/img/display/video/personnel_disinfection_poster_video.jpg"
 import cowshed_poster_video from "../asset/img/display/video/cowshed_poster_video.jpg"
 
-import contact from "../asset/img/contact/contact.jpg"
 
 const images = {
     Banner: { src: banner, alt: "banner" },
@@ -92,8 +91,7 @@ const images = {
         { src: spray_video, poster: spray_poster_video },
         { src: personnel_disinfection_video, poster: personnel_disinfection_poster_video },
         { src: cowshed_video, poster: cowshed_poster_video }
-    ],
-    contact: { contact }
+    ]
 }
 
 

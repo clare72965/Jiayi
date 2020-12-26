@@ -75,21 +75,19 @@
     .nav_box_link {
 		position: absolute;
         top: 75px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,100px);
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
         font-size: 1.1rem;
         background-color: $theme_color;
         height: 100vh;
         list-style: none;
-		padding-top: 20%;
 
         a {
             text-align: center;
 			color: white;
-			font-weight: unset;
+            font-weight: unset;
+            margin-top: 40px;
         }
 
         &.active {

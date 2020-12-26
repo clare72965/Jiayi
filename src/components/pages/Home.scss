@@ -47,12 +47,12 @@
 
 .service_items_content,.motor_mix_content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 20px 0; 
 
     > div{
-        margin: 20px 0;
+        margin: 20px;
     }
 
     &_img_box{
