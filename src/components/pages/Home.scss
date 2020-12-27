@@ -216,6 +216,7 @@
 
         img{
             width: 100%;
+            height: 100%;
         }
         
         img:hover{
@@ -227,11 +228,13 @@
 
     .motor_mix_content_img_box{
         width: 60% !important;
-        height: auto;
+        height: 200px;
     }
 
 
     .service_items_content{
+        padding: 20px 0 40px;
+        
        > div{
             margin: auto;
             width: 100%;
@@ -244,8 +247,8 @@
         }
 
         &_img_box{
-            width:50%;
-            height: 320px;
+            width: 50%;
+            height: 200px;
         }
 
         &_img_title{
